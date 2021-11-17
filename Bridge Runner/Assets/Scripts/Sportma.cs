@@ -16,7 +16,7 @@ public class Sportma : MonoBehaviour
 
     private bool isDead = false;
 
-    //public PauseMenu pauseMenu;//to use the TogglePauseMenu() from PauseMenu script in here!
+    public PauseMenu pauseMenu;//to use the TogglePauseMenu() from PauseMenu script in here!
 
 
     // Start is called before the first frame update
