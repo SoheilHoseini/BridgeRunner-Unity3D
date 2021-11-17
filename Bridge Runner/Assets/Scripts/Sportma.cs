@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;//to make menu scene
 
 public class Sportma : MonoBehaviour
 {
@@ -35,11 +36,11 @@ public class Sportma : MonoBehaviour
             return;
 
 
-        ////this is being called every time our player hits space button
-        //if (Input.GetKey(KeyCode.Space))
-        //{
-        //    Pause();
-        //}
+        //this is being called every time our player hits space button
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Pause();
+        }
 
 
         animator.SetBool("Run", true);//to run in its place
@@ -78,5 +79,11 @@ public class Sportma : MonoBehaviour
     public void SetSpeed(float modifier)
     {
         speed = 5.0f + modifier;
+    }
+
+    private void Pause()
+    {
+        Time.timeScale = 0f;
+        pauseMenu.TogglePauseMenu();
     }
 }
