@@ -86,4 +86,19 @@ public class Sportma : MonoBehaviour
         Time.timeScale = 0f;
         pauseMenu.TogglePauseMenu();
     }
+
+    ////this is being called every time our player's capsule hit sth in front (not left/right sides)
+    //private void OnControllerColliderHit(ControllerColliderHit hit)
+    //{                  //this is the player front border
+    //    if (hit.point.z > transform.position.z + 0.1f && hit.gameObject.tag == ("Enemy"))
+    //    {                                     //this is the raduis of the capsule around him
+    //        Death();
+    //    }
+    //}
+
+    //private void Death()
+    //{
+    //    isDead = true;
+    //    GetComponent<Score>().OnDeath();
+    //}
 }
