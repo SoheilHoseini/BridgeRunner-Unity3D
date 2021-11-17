@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;//to make menu scene
+using UnityEngine.SceneManagement;//to change and add scenes
 
 public class Sportma : MonoBehaviour
 {
@@ -81,12 +81,6 @@ public class Sportma : MonoBehaviour
         speed = 5.0f + modifier;
     }
 
-    private void Pause()
-    {
-        Time.timeScale = 0f;
-        pauseMenu.TogglePauseMenu();
-    }
-
     //this is being called every time our player's capsule hit sth in front (not left/right sides)
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {                  //this is the player front border
@@ -101,4 +95,13 @@ public class Sportma : MonoBehaviour
         isDead = true;
         GetComponent<Score>().OnDeath();
     }
+
+
+    private void Pause()
+    {
+        Time.timeScale = 0f;
+        pauseMenu.TogglePauseMenu();
+    }
+
+
 }
