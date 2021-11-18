@@ -10,10 +10,10 @@ Features
 - [x] Increasing speed as time elapses
 - [x] Calculate score and show it changing on the screen
 - [x] Save highscore for next plays
-- [x] Implement pause ans resume by clicking on space
+- [x] Implement pause and resume by clicking on space key
 - [x] Implement death when hitting obstacles (Screen goes black and a death menu in shown)
-- [x] Restart the game if the "Restart" button is hit (Both in pause and death)
+- [x] Restart the game if the "Restart" button is hit (Both in pause and death states)
 - [x] Set backgroud music
 - [x] Implement starting menu in another scene
 - [x] Place start button in the starting menu to redirect to the game
-- [x] Set backgroung music for starting menu
+- [x] Set backgroung music for the starting menu
