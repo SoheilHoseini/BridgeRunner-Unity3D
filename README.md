@@ -5,7 +5,7 @@ Features
 - [x] Creating a male character with Mixamo Fuse
 - [x] Add runnig and breathing idle to the character
 - [x] Bridge model for instantiating endlessly
-- [x] Some animal statues using for obstacles
+- [x] Some animal statues using as obstacles
 - [x] Set an endless path for player that after any tile, a new one is instantiated
 - [x] Increasing speed as time elapses
 - [x] Calculate score and show it changing on the screen
