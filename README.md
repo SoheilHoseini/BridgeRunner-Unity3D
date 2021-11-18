@@ -2,7 +2,7 @@
 
 Features
 
-[ ] Creating a male character with Mixamo Fuse
+- [ ] Creating a male character with Mixamo Fuse
 [ ] Add runnig and breathing idle to the character
 [ ] Bridge model for instantiating endlessly
 [ ] Some animal statues using for obstacles
