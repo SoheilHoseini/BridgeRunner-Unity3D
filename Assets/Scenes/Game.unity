@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a952d0098fb1d0248b7c47b3efd3f909,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -140,6 +141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595632629911864232, guid: e83a338fd4c798f4297f1afe9b6ca75e,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4004093324600346142, guid: e83a338fd4c798f4297f1afe9b6ca75e,
         type: 3}
@@ -1468,7 +1474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5191e050878bd84dbd6a38522d8a008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highscoreText: {fileID: 0}
+  highscoreText: {fileID: 2145443127}
 --- !u!4 &1197657053
 Transform:
   m_ObjectHideFlags: 0
