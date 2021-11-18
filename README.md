@@ -3,6 +3,7 @@
 Features
 
 - [x] Creating a male character with Mixamo Fuse
+- [x] Design terrain for game
 - [x] Add runnig and breathing idle to the character
 - [x] Bridge model for instantiating endlessly
 - [x] Some animal statues using as obstacles
