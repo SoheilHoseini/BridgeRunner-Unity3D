@@ -1,5 +1,7 @@
 # BridgeRunner-GameCourse-2021
 
+This game is a 3D remix of "Temple Run".
+
 Features
 
 - [x] Creating a male character with Mixamo Fuse
